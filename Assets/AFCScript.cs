@@ -208,13 +208,13 @@ public class AFCScript : MonoBehaviour
 
 		foreach (char buttonChar in command.Where(char.IsDigit))
 		{
-			yield return null;
 			int buttonNum;
 			if (int.TryParse(buttonChar.ToString(), out buttonNum))
 			{
 				if (buttonNum < 1 || buttonNum > 8) yield return string.Format("sendtochaterror Button number \"{0}\" is invalid.", buttonNum);
 				else
 				{
+					yield return null;
 					Buttons[buttonNum - 1].Selectable.OnInteract();
 					yield return new WaitForSeconds(0.1f);
 				}

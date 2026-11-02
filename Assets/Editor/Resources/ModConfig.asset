@@ -16,6 +16,6 @@ MonoBehaviour:
   author: UnrulyJuli3, Charlie9631
   description: Convert colors to names, sort the names alphabetically and based on
     other factors, and convert them back to colors.
-  version: 2.3
+  version: 2.4
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 49d497b4b81ece74596ae2e343a3092a, type: 3}
