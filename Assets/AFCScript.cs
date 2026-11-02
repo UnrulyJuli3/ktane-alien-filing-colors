@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using KModkit;
 using UnityEngine;
 using AFCColor = AFCColors.Color;
-using KModkit;
 
 /*
  * This is a complete re-code of Alien Filing Colors.
@@ -208,6 +208,7 @@ public class AFCScript : MonoBehaviour
 
 		foreach (char buttonChar in command.Where(char.IsDigit))
 		{
+			yield return null;
 			int buttonNum;
 			if (int.TryParse(buttonChar.ToString(), out buttonNum))
 			{

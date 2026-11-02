@@ -13,10 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: AlienModule
   title: Alien Filing Colors
-  author: TheDarkSid3r, Charlie9631
+  author: UnrulyJuli3, Charlie9631
   description: Convert colors to names, sort the names alphabetically and based on
     other factors, and convert them back to colors.
-  version: 2.2b
-  outputFolder: D:\Program Files (x86)\Steam\steamapps\common\Keep Talking and Nobody
-    Explodes\mods
+  version: 2.3
+  outputFolder: build
   previewImage: {fileID: 2800000, guid: 49d497b4b81ece74596ae2e343a3092a, type: 3}
